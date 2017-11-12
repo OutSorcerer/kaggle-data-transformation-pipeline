@@ -4,21 +4,11 @@
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from os.path import join as opj
-from matplotlib import pyplot
-from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Dense, Dropout, Input, Flatten, Activation
-from keras.layers import GlobalMaxPooling2D
-from keras.layers.normalization import BatchNormalization
-from keras.layers.merge import Concatenate
-from keras.models import Model
-from keras import initializers
 from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, Callback, EarlyStopping
 from sklearn.preprocessing import StandardScaler
-from os.path import isfile
-import data
 
 
 def convert_train_to_numpy():

@@ -3,10 +3,6 @@ import sys
 import configparser
 import doit
 from doit.cmd_base import ModuleTaskLoader
-import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-import inspect
 from os.path import isfile
 import kaggle
 import baseline_model
