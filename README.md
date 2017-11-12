@@ -1,6 +1,6 @@
 # What is this about?
 
-Its a structured implementation of a typical data transofrmation workflow made with [doit build-tool](http://pydoit.org/) illustrated with [iceberg competition on Kaggle](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge).
+It is a structured and extensible implementation of a typical data transformation workflow made with [doit build-tool](http://pydoit.org/) illustrated with [Statoil/C-CORE Iceberg Classifier Challenge on Kaggle](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge).
 
 Assume that your have the following workflow:
 
