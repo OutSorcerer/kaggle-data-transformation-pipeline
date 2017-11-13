@@ -24,7 +24,7 @@ Such problem is historically adressed by software like [Make build automation to
 
 # How doit implementation looks like?
 
-Assuming that [all dependencies are installed](README.md#dependencies) and your [specified your Kaggle credentials](README.md#kaggle-credentials) just run the following shell command:
+Assuming that [all dependencies are installed](#dependencies) and your [specified your Kaggle credentials](#kaggle-credentials) just run the following shell command:
 
 ```shell
 doit
