@@ -82,3 +82,7 @@ Thanks to Gerrit Gruben ([@uberwach](https://github.com/uberwach)) for his idea 
 Thanks to [DeveshMaheshwari](https://www.kaggle.com/devm2024) for his [kernel with basic CNN model](https://www.kaggle.com/devm2024/keras-model-for-beginners-0-210-on-lb-eda-r-d/notebook).
 
 Thanks to [Kaggle-CLI](https://github.com/floydwch/kaggle-cli) contributors.
+
+# Feedback 
+
+Feel free to contact me, you can also post a comment with Disqus [at the corresponding blog post](https://outsorcerer.github.io/class-struggle/Data-transformation-pipeline-in-Kaggle-competitions-with-doit-build-tool/).
