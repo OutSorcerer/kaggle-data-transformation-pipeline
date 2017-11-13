@@ -14,7 +14,7 @@ Assume that your have the following workflow:
 
 Imagine that you do not want to push these huge files to your version control system and/or Docker registry. You computer may have much slower internet connection than AWS instances where are training your models so downloading and transforming data each time is much faster for you. 
 
-Imagine that you also want to cache intermediate results of this steps so that re-running pipeline does not require repeating unnecessary actions.
+Imagine that you also want to cache intermediate results of these steps so that re-running pipeline does not require repeating unnecessary actions.
 
 But when something is actually changed (your code or input data) cached data should be invalidated and recomputed.
 
