@@ -26,13 +26,13 @@ Such problem is historically adressed by software like [Make build automation to
 
 Assuming that [all dependencies are installed](README.md#dependencies) and your [specified your Kaggle credentials](README.md#kaggle-credentials) just run the following shell command:
 
-```
+```shell
 doit
 ```
 
 It looks for `dodo.py` and for configuration there, finds `'default_tasks': ['train']` and launches a task called `train`. Its defenition looks like:
 
-```
+```python
 def task_train():
     return {
         'actions': [baseline_model.train],
@@ -46,7 +46,7 @@ Note that it depends not only on data but on source file (`baseline_model.py`) w
 
 `data/train.npy` in turn is configured as a `target` of a task called `convert_train_to_numpy`:
 
-```
+```python
 def task_convert_train_to_numpy():
     return {
         'actions': [baseline_model.convert_train_to_numpy],
@@ -67,7 +67,7 @@ This sample is also using [Keras](https://github.com/fchollet/keras), [TensorFlo
 
 Kaggle requires your login and password to download a dataset. Specify your credentials with environment variables `KAGGLE_LOGIN` and `KAGGLE_PASSWORD` or `.credentials.ini` in the following format (file has higher priority):
 
-```
+```ini
 [kaggle]
 login=your_login
 password=your_password
