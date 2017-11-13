@@ -77,7 +77,7 @@ Be carefult and never push this file to a public repository like GitHub (it is a
 
 # Credits
 
-Thanks to Gerrit Gruben's ([@uberwach](https://github.com/uberwach)) idea of using makefiles for data transformation on Kaggle competiontions. See his [Kaggle competition project structure template](https://github.com/uberwach/cookiecutter-kaggle).
+Thanks to Gerrit Gruben ([@uberwach](https://github.com/uberwach)) for his idea of using makefiles for data transformation on Kaggle competiontions. See his [Kaggle competition project structure template](https://github.com/uberwach/cookiecutter-kaggle).
 
 Thanks to [DeveshMaheshwari](https://www.kaggle.com/devm2024) for his [kernel with basic CNN model](https://www.kaggle.com/devm2024/keras-model-for-beginners-0-210-on-lb-eda-r-d/notebook).
 
