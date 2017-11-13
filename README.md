@@ -81,3 +81,4 @@ Thanks to Gerrit Gruben's ([@uberwach](https://github.com/uberwach)) idea of usi
 
 Thanks to [DeveshMaheshwari](https://www.kaggle.com/devm2024) for his [kernel with basic CNN model](https://www.kaggle.com/devm2024/keras-model-for-beginners-0-210-on-lb-eda-r-d/notebook).
 
+Thanks to [Kaggle-CLI](https://github.com/floydwch/kaggle-cli) contributors.
