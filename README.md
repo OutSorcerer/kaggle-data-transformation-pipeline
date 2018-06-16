@@ -85,4 +85,4 @@ Thanks to [Kaggle-CLI](https://github.com/floydwch/kaggle-cli) contributors.
 
 # Feedback 
 
-Feel free to contact me, you can also post a comment with Disqus [at the corresponding blog post](https://outsorcerer.github.io/class-struggle/Data-transformation-pipeline-in-Kaggle-competitions-with-doit-build-tool/).
+Feel free to contact me, you can also post a comment with Disqus [at the corresponding blog post](https://evgeniymamchenko.com/data-transformation-pipeline-in-kaggle-competitions-with-doit-build-tool/).
